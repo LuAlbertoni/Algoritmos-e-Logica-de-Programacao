@@ -4,7 +4,7 @@ alturaMedia = 0
 quant = 0
 i = 0
 
-while i < 2:
+while i < 20:
   idade = int(input('Insira sua idade: '))
   altura = float(input('Insira sua altura: '))
 
