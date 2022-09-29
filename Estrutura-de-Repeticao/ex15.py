@@ -16,11 +16,10 @@ for modulo in range(1, 7):
     homensModulo = 0
     mulheresModulo = 0
     idadesModulo = 0
-    idade = 0
 
     for alunos in range(30):
       genero = input('Insira o sexo (M ou F): ')
-      idade += int(input('Insira a idade: '))
+      idade = int(input('Insira a idade: '))
 
       if genero == 'M' or genero == 'm':
         homensModulo += 1
